@@ -33,5 +33,6 @@
 
 # .idea
 .idea/*
+cmake-build-debug/*
 
 *.iml
