@@ -7,4 +7,7 @@ int main() {
 //    return 0;
 //    std::cout << "Hello, World!" << std::endl;
 //    return 0;
+
+    std::cout << __cplusplus << std::endl;
+    return 0;
 }
