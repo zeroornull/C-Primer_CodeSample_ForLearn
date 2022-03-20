@@ -1,0 +1,26 @@
+//
+// Created by xxp on 2022/3/20.
+//
+
+#include <iostream>
+
+double cube(double a) {
+    a *= a * a;
+    return a;
+}
+
+double refcube(double &ra) {
+    ra *= ra * ra;
+    return ra;
+}
+
+int main() {
+    using namespace std;
+    double x = 3.0;
+
+    cout << cube(x);
+    cout << " = cube of " << x << endl;
+    cout << refcube(x);
+    cout << " = cube of " << x << endl;
+    return 0;
+}

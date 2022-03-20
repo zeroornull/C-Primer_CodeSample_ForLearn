@@ -36,3 +36,5 @@
 cmake-build-debug/*
 
 *.iml
+/cmake-build-debug-mingw-mingw/
+/cmake-build-debug-visual-studio/
