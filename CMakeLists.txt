@@ -173,3 +173,14 @@ add_executable(src_chapter8_practice_P_7 src/chapter8/practice/P_7.cpp)
 
 add_executable(src_chapter9_2_file1 src/chapter9/2_file1.cpp src/chapter9/include/1_coordin.h src/chapter9/3_file2.cpp)
 
+
+add_executable(src_chapter9_4_auto src/chapter9/4_auto.cpp)
+add_executable(src_chapter9_5_external src/chapter9/5_external.cpp src/chapter9/6_support.cpp)
+add_executable(src_chapter9_7_twofile1 src/chapter9/7_twofile1.cpp src/chapter9/8_twofile2.cpp)
+add_executable(src_chapter9_9_static src/chapter9/9_static.cpp)
+add_executable(src_chapter9_10_newplace src/chapter9/10_newplace.cpp)
+add_executable(src_chapter9_13_namessp src/chapter9/13_namessp.cpp src/chapter9/11_namesp.h src/chapter9/12_namesp.cpp)
+add_executable(src_chapter9_practice_p1_dir_main src/chapter9/practice/p1_dir/main.cpp src/chapter9/practice/p1_dir/golf.cpp src/chapter9/practice/p1_dir/golf.h)
+add_executable(src_chapter9_practice_9_2 src/chapter9/practice/9_2.cpp)
+add_executable(src_chapter9_practice_9_3 src/chapter9/practice/9_3.cpp)
+add_executable(src_chapter9_practice_9_4_main src/chapter9/practice/9_4/main.cpp src/chapter9/practice/9_4/sales.h src/chapter9/practice/9_4/sales.cpp)
