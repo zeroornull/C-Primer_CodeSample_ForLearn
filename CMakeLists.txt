@@ -4,7 +4,6 @@ project(FirstProject)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(FirstProject src/main.cpp)
-
 add_executable(myfirst src/chapter2/myfirst.cpp)
 add_executable(carrot src/chapter2/carrot.cpp)
 add_executable(getinfo src/chapter2/getinfo.cpp)
@@ -87,7 +86,6 @@ add_executable(17_textin2 src/chapter5/17_textin2.cpp)
 add_executable(18_textin3 src/chapter5/18_textin3.cpp)
 add_executable(19_textin4 src/chapter5/19_textin4.cpp)
 add_executable(20_nested src/chapter5/20_nested.cpp)
-
 add_executable(p_1 src/chapter5/exercise/p_1.cpp)
 add_executable(src_chapter4_exercise_p_1 src/chapter4/exercise/p_1.cpp)
 add_executable(src_chapter5_exercise_p_2 src/chapter5/exercise/p_2.cpp)
@@ -170,10 +168,7 @@ add_executable(src_chapter8_practice_p_4 src/chapter8/practice/p_4.cpp)
 add_executable(src_chapter8_practice_p_5 src/chapter8/practice/p_5.cpp)
 add_executable(src_chapter8_practice_p_6 src/chapter8/practice/p_6.cpp)
 add_executable(src_chapter8_practice_P_7 src/chapter8/practice/P_7.cpp)
-
 add_executable(src_chapter9_2_file1 src/chapter9/2_file1.cpp src/chapter9/include/1_coordin.h src/chapter9/3_file2.cpp)
-
-
 add_executable(src_chapter9_4_auto src/chapter9/4_auto.cpp)
 add_executable(src_chapter9_5_external src/chapter9/5_external.cpp src/chapter9/6_support.cpp)
 add_executable(src_chapter9_7_twofile1 src/chapter9/7_twofile1.cpp src/chapter9/8_twofile2.cpp)
@@ -192,4 +187,10 @@ add_executable(src_chapter10_practice_10_1_main src/chapter10/practice/10_1/main
 add_executable(src_chapter10_practice_10_2_main src/chapter10/practice/10_2/main.cpp src/chapter10/practice/10_2/person.cpp src/chapter10/practice/10_2/person.h)
 add_executable(src_chapter10_practice_10_3_main src/chapter10/practice/10_3/main.cpp src/chapter10/practice/10_3/golf.cpp src/chapter9/practice/p1_dir/golf.h)
 add_executable(src_chapter10_practice_10_4_main src/chapter10/practice/10_4/main.cpp src/chapter10/practice/10_4/sales.cpp src/chapter10/practice/10_4/sales.h)
-add_executable(src_chapter10_practice_10_5_main src/chapter10/practice/10_5/main.cpp)
+add_executable(src_chapter10_practice_10_5_main src/chapter10/practice/10_5/main.cpp src/chapter10/practice/10_5/stack.cpp src/chapter10/practice/10_5/stack.h)
+add_executable(src_chapter10_practice_10_6_main src/chapter10/practice/10_6/main.cpp src/chapter10/practice/10_6/move.cpp src/chapter10/practice/10_6/move.h)
+add_executable(src_chapter10_practice_10_7_main src/chapter10/practice/10_7/main.cpp src/chapter10/practice/10_7/plorg.cpp src/chapter10/practice/10_7/plorg.h)
+add_executable(src_chapter10_practice_10_8_main src/chapter10/practice/10_8/main.cpp src/chapter10/practice/10_8/list.cpp src/chapter10/practice/10_8/list.h)
+add_executable(src_chapter11_usetime0 src/chapter11/usetime0.cpp src/chapter11/mytime0.cpp src/chapter11/mytime0.h)
+add_executable(src_chapter11_usetime1 src/chapter11/usetime1.cpp src/chapter11/mytime1.cpp src/chapter11/mytime1.h)
+add_executable(src_chapter11_usetime2 src/chapter11/usetime2.cpp src/chapter11/mytime2.cpp src/chapter11/mytime2.h)
