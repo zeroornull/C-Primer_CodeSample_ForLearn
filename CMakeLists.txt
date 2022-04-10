@@ -195,3 +195,7 @@ add_executable(src_chapter11_usetime0 src/chapter11/usetime0.cpp src/chapter11/m
 add_executable(src_chapter11_usetime1 src/chapter11/usetime1.cpp src/chapter11/mytime1.cpp src/chapter11/mytime1.h)
 add_executable(src_chapter11_usetime2 src/chapter11/usetime2.cpp src/chapter11/mytime2.cpp src/chapter11/mytime2.h)
 add_executable(src_chapter11_usetime3 src/chapter11/usetime3.cpp src/chapter11/mytime3.cpp src/chapter11/mytime3.h)
+add_executable(src_chapter11_randwalk src/chapter11/randwalk.cpp src/chapter11/vector.cpp src/chapter11/vector.h)
+add_executable(src_chapter11_stone src/chapter11/stone.cpp src/chapter11/stonewt.cpp src/chapter11/stonewt.h)
+add_executable(src_chapter11_stone1 src/chapter11/stone1.cpp src/chapter11/stonewt1.h src/chapter11/stonewt1.cpp)
+add_executable(src_chapter11_practice_p1_randwalk src/chapter11/practice/p1/randwalk.cpp src/chapter11/practice/p1/vect.cpp src/chapter11/practice/p1/vect.h)

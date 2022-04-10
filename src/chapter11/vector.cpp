@@ -100,7 +100,30 @@ namespace VECTOR {
     }
 
     Vector Vector::operator-(const Vector &b) const {
-        return Vector(x - b.x, y - b.y);
+        return {x - b.x, y - b.y};
+    }
+
+    Vector Vector::operator-() const {
+        return {};
+    }
+
+    Vector Vector::operator*(double n) const {
+        return {};
+    }
+
+    Vector operator*(double n, const Vector &a) {
+        return {};
+    }
+
+    std::ostream &operator<<(std::ostream &os, const Vector &v) {
+//        return <#initializer#>;
+        if (v.mode == Vector::RECT) {
+            os << "(x,y) = (" << v.x << ", " << v.y << ")";
+        } else if (v.mode == Vector::POL) {
+            os << "(m,a) = (" << v.mag << ", " << v.ang * Rad_to_deg << ")";
+        } else{
+            return os;
+        }
     }
 
 }
