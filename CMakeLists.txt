@@ -199,3 +199,4 @@ add_executable(src_chapter11_randwalk src/chapter11/randwalk.cpp src/chapter11/v
 add_executable(src_chapter11_stone src/chapter11/stone.cpp src/chapter11/stonewt.cpp src/chapter11/stonewt.h)
 add_executable(src_chapter11_stone1 src/chapter11/stone1.cpp src/chapter11/stonewt1.h src/chapter11/stonewt1.cpp)
 add_executable(src_chapter11_practice_p1_randwalk src/chapter11/practice/p1/randwalk.cpp src/chapter11/practice/p1/vect.cpp src/chapter11/practice/p1/vect.h)
+add_executable(src_chapter11_practice_p2_randwalk src/chapter11/practice/p2/randwalk.cpp src/chapter11/practice/p2/vect.h src/chapter11/practice/p2/vect.cpp)
