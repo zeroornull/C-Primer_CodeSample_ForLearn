@@ -200,3 +200,7 @@ add_executable(src_chapter11_stone src/chapter11/stone.cpp src/chapter11/stonewt
 add_executable(src_chapter11_stone1 src/chapter11/stone1.cpp src/chapter11/stonewt1.h src/chapter11/stonewt1.cpp)
 add_executable(src_chapter11_practice_p1_randwalk src/chapter11/practice/p1/randwalk.cpp src/chapter11/practice/p1/vect.cpp src/chapter11/practice/p1/vect.h)
 add_executable(src_chapter11_practice_p2_randwalk src/chapter11/practice/p2/randwalk.cpp src/chapter11/practice/p2/vect.h src/chapter11/practice/p2/vect.cpp)
+add_executable(src_chapter11_practice_p_4_usetime3 src/chapter11/practice/p_4/usetime3.cpp src/chapter11/practice/p_4/mytime3.h src/chapter11/practice/p_4/mytime3.cpp)
+add_executable(src_chapter11_practice_p_5_main src/chapter11/practice/p_5/main.cpp src/chapter11/practice/p_5/stonewt.cpp src/chapter11/practice/p_5/stonewt.h)
+add_executable(src_chapter11_practice_p_6_main src/chapter11/practice/p_6/main.cpp src/chapter11/practice/p_6/stonewt.h src/chapter11/practice/p_6/stonewt.cpp)
+add_executable(src_chapter11_practice_p_7_main src/chapter11/practice/p_7/main.cpp src/chapter11/practice/p_7/complex.cpp src/chapter11/practice/p_7/complex.h)
