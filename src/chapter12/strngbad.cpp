@@ -28,6 +28,13 @@ StringBad::StringBad() {
     delete[] str;
 }
 
+StringBad::~StringBad() {
+    cout << "\"" << str << "\" object deleted, ";
+    --num_strings;
+    cout << num_strings << " left\n";
+    delete[] str;
+}
+
 std::ostream &operator<<(std::ostream &os, const StringBad &st) {
     os << st.str;
     return os;

@@ -204,3 +204,5 @@ add_executable(src_chapter11_practice_p_4_usetime3 src/chapter11/practice/p_4/us
 add_executable(src_chapter11_practice_p_5_main src/chapter11/practice/p_5/main.cpp src/chapter11/practice/p_5/stonewt.cpp src/chapter11/practice/p_5/stonewt.h)
 add_executable(src_chapter11_practice_p_6_main src/chapter11/practice/p_6/main.cpp src/chapter11/practice/p_6/stonewt.h src/chapter11/practice/p_6/stonewt.cpp)
 add_executable(src_chapter11_practice_p_7_main src/chapter11/practice/p_7/main.cpp src/chapter11/practice/p_7/complex.cpp src/chapter11/practice/p_7/complex.h)
+add_executable(src_chapter12_vegnews src/chapter12/vegnews.cpp src/chapter12/strngbad.cpp src/chapter12/strngbad.h)
+add_executable(src_chapter12_sayings1 src/chapter12/sayings1.cpp src/chapter12/string1.h src/chapter12/string1.cpp)
