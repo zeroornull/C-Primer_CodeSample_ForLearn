@@ -214,3 +214,8 @@ add_executable(src_chapter12_practice_p_1_main src/chapter12/practice/p_1/main.c
 add_executable(src_chapter12_practice_p_2_main src/chapter12/practice/p_2/main.cpp src/chapter12/practice/p_2/string2.cpp src/chapter12/practice/p_2/string2.h)
 add_executable(src_chapter12_practice_p_3_main src/chapter12/practice/p_3/usestok2.cpp src/chapter12/practice/p_3/stock20.cpp src/chapter12/practice/p_3/stock20.h)
 add_executable(src_chapter12_practice_p_4_main src/chapter12/practice/p_4/main.cpp src/chapter12/practice/p_4/stack.cpp src/chapter12/practice/p_4/stack.h)
+add_executable(src_chapter13_usett0 src/chapter13/usett0.cpp src/chapter13/tabtenn0.cpp src/chapter13/tabtenn0.h)
+add_executable(src_chapter13_usett1 src/chapter13/usett1.cpp src/chapter13/tabtenn1.cpp src/chapter13/tabtenn1.h)
+add_executable(src_chapter13_usebrass1 src/chapter13/usebrass1.cpp src/chapter13/brass.cpp src/chapter13/brass.h)
+add_executable(src_chapter13_usebrass2 src/chapter13/usebrass2.cpp src/chapter13/brass.cpp src/chapter13/brass.h)
+add_executable(src_chapter13_usebrass3 src/chapter13/usebrass3.cpp src/chapter13/acctabc.cpp src/chapter13/acctabc.h)
