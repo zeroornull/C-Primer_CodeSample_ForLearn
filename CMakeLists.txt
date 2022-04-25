@@ -219,3 +219,4 @@ add_executable(src_chapter13_usett1 src/chapter13/usett1.cpp src/chapter13/tabte
 add_executable(src_chapter13_usebrass1 src/chapter13/usebrass1.cpp src/chapter13/brass.cpp src/chapter13/brass.h)
 add_executable(src_chapter13_usebrass2 src/chapter13/usebrass2.cpp src/chapter13/brass.cpp src/chapter13/brass.h)
 add_executable(src_chapter13_usebrass3 src/chapter13/usebrass3.cpp src/chapter13/acctabc.cpp src/chapter13/acctabc.h)
+add_executable(src_chapter13_usedma src/chapter13/usedma.cpp src/chapter13/dma.cpp src/chapter13/dma.h)
