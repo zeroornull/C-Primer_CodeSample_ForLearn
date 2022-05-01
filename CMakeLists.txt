@@ -220,3 +220,8 @@ add_executable(src_chapter13_usebrass1 src/chapter13/usebrass1.cpp src/chapter13
 add_executable(src_chapter13_usebrass2 src/chapter13/usebrass2.cpp src/chapter13/brass.cpp src/chapter13/brass.h)
 add_executable(src_chapter13_usebrass3 src/chapter13/usebrass3.cpp src/chapter13/acctabc.cpp src/chapter13/acctabc.h)
 add_executable(src_chapter13_usedma src/chapter13/usedma.cpp src/chapter13/dma.cpp src/chapter13/dma.h)
+add_executable(src_chapter13_practice_p_1_main src/chapter13/practice/p_1/main.cpp src/chapter13/practice/p_1/classic.cpp src/chapter13/practice/p_1/classic.h)
+add_executable(src_chapter13_practice_p_2_main src/chapter13/practice/p_2/main.cpp src/chapter13/practice/p_2/classic.cpp src/chapter13/practice/p_2/classic.h)
+add_executable(src_chapter13_practice_p_4_main src/chapter13/practice/p_4/main.cpp src/chapter13/practice/p_4/port.cpp src/chapter13/practice/p_4/port.h)
+add_executable(src_chapter14_use_stuc src/chapter14/use_stuc.cpp src/chapter14/student.cpp src/chapter14/student.h)
+add_executable(src_chapter14_worktest src/chapter14/worktest.cpp src/chapter14/Worker0.cpp src/chapter14/Worker0.h)
