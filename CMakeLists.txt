@@ -225,3 +225,5 @@ add_executable(src_chapter13_practice_p_2_main src/chapter13/practice/p_2/main.c
 add_executable(src_chapter13_practice_p_4_main src/chapter13/practice/p_4/main.cpp src/chapter13/practice/p_4/port.cpp src/chapter13/practice/p_4/port.h)
 add_executable(src_chapter14_use_stuc src/chapter14/use_stuc.cpp src/chapter14/student.cpp src/chapter14/student.h)
 add_executable(src_chapter14_worktest src/chapter14/worktest.cpp src/chapter14/Worker0.cpp src/chapter14/Worker0.h)
+add_executable(src_chapter14_workmi src/chapter14/workmi.cpp src/chapter14/workermi.cpp src/chapter14/workermi.h)
+add_executable(src_chapter14_stacktem src/chapter14/stacktem.cpp)
