@@ -227,3 +227,4 @@ add_executable(src_chapter14_use_stuc src/chapter14/use_stuc.cpp src/chapter14/s
 add_executable(src_chapter14_worktest src/chapter14/worktest.cpp src/chapter14/Worker0.cpp src/chapter14/Worker0.h)
 add_executable(src_chapter14_workmi src/chapter14/workmi.cpp src/chapter14/workermi.cpp src/chapter14/workermi.h)
 add_executable(src_chapter14_stacktem src/chapter14/stacktem.cpp)
+add_executable(src_chapter14_stkoptr1 src/chapter14/stkoptr1.cpp src/chapter14/stcktp1.h)
