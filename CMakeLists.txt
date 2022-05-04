@@ -228,3 +228,6 @@ add_executable(src_chapter14_worktest src/chapter14/worktest.cpp src/chapter14/W
 add_executable(src_chapter14_workmi src/chapter14/workmi.cpp src/chapter14/workermi.cpp src/chapter14/workermi.h)
 add_executable(src_chapter14_stacktem src/chapter14/stacktem.cpp)
 add_executable(src_chapter14_stkoptr1 src/chapter14/stkoptr1.cpp src/chapter14/stcktp1.h)
+add_executable(src_chapter14_twod src/chapter14/twod.cpp src/chapter14/arraytp.h)
+add_executable(src_chapter14_pairs src/chapter14/pairs.cpp)
+add_executable(src_chapter14_tempmemb src/chapter14/tempmemb.cpp)
