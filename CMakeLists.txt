@@ -231,3 +231,6 @@ add_executable(src_chapter14_stkoptr1 src/chapter14/stkoptr1.cpp src/chapter14/s
 add_executable(src_chapter14_twod src/chapter14/twod.cpp src/chapter14/arraytp.h)
 add_executable(src_chapter14_pairs src/chapter14/pairs.cpp)
 add_executable(src_chapter14_tempmemb src/chapter14/tempmemb.cpp)
+add_executable(src_chapter14_tempparm src/chapter14/tempparm.cpp src/chapter14/stacktp.h)
+add_executable(src_chapter14_frnd2tmp src/chapter14/frnd2tmp.cpp)
+add_executable(src_chapter14_tmp2tmp src/chapter14/tmp2tmp.cpp)
