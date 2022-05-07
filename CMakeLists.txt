@@ -237,3 +237,18 @@ add_executable(src_chapter14_tmp2tmp src/chapter14/tmp2tmp.cpp)
 add_executable(src_chapter14_manyfrnd src/chapter14/manyfrnd.cpp)
 add_executable(src_chapter14_practice_main src/chapter14/practice/p_1/main.cpp src/chapter14/practice/p_1/pair.h src/chapter14/practice/p_1/wine.cpp src/chapter14/practice/p_1/wine.h)
 add_executable(src_chapter14_practice_p_2_main src/chapter14/practice/p_2/main.cpp src/chapter14/practice/p_2/pair.h src/chapter14/practice/p_2/wine.h src/chapter14/practice/p_2/wine.cpp)
+add_executable(src_chapter14_practice_p_3_main src/chapter14/practice/p_3/main.cpp src/chapter14/practice/p_3/queue.h src/chapter14/practice/p_3/worker.cpp src/chapter14/practice/p_3/worker.h)
+add_executable(src_chapter14_practice_p_4_main src/chapter14/practice/p_4/main.cpp
+        src/chapter14/practice/p_4/baddude.cpp
+        src/chapter14/practice/p_4/baddude.h
+        src/chapter14/practice/p_4/gunslinger.cpp
+        src/chapter14/practice/p_4/gunslinger.h
+        src/chapter14/practice/p_4/person.cpp
+        src/chapter14/practice/p_4/person.h
+        src/chapter14/practice/p_4/pokerplayer.cpp
+        src/chapter14/practice/p_4/pokerplayer.h
+        )
+add_executable(src_chapter14_practice_p_5_main src/chapter14/practice/p_5/main.cpp
+        src/chapter14/practice/p_5/emp.cpp
+        src/chapter14/practice/p_5/emp.h
+        )
