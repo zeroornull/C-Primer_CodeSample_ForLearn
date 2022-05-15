@@ -30,8 +30,8 @@ int main()
 
     cout << "Using an abstr_emp * pointer: \n";
     abstr_emp * tri[4] = {&em, &fi, &hf, &hf2};
-    for(int i = 0; i < 4; i++)
-        tri[i]->ShowAll();
+    for(auto & i : tri)
+        i->ShowAll();
 
     return 0;
 }
