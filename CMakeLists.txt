@@ -268,3 +268,9 @@ add_executable(src_chapter15_practice_p_1_main src/chapter15/practice/p_1/main.c
 add_executable(src_chapter15_practice_p_2_error4 src/chapter15/practice/p_2/error4.cpp src/chapter15/practice/p_2/exception.h)
 add_executable(src_chapter15_practice_p_3_error4 src/chapter15/practice/p_3/error4.cpp src/chapter15/practice/p_3/exception.h)
 add_executable(src_chapter15_practice_p_4_main src/chapter15/practice/p_4/main.cpp src/chapter15/practice/p_4/sales.h src/chapter15/practice/p_4/sales.cpp)
+add_executable(src_chapter16_str1 src/chapter16/str1.cpp)
+add_executable(src_chapter16_strfile src/chapter16/strfile.cpp src/chapter16/tobuy.txt)
+
+add_executable(src_chapter16_hangman src/chapter16/hangman.cpp)
+add_executable(src_chapter16_str2 src/chapter16/str2.cpp)
+add_executable(src_chapter16_smrtptrs src/chapter16/smrtptrs.cpp)
